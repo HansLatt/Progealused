@@ -1,6 +1,6 @@
 sisend = prompt("Palun sisesta positiivne temperatuur 1-60-ni")
 
-function checkTemp() {
+function checkTemp(sisend) {
 if (sisend <= 20)
     return -1;
 else if (sisend >= 21 && sisend <= 40)
